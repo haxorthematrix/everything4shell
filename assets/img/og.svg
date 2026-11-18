@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="0%" r="75%">
+      <stop offset="0%" stop-color="#39e58c" stop-opacity=".22"/>
+      <stop offset="100%" stop-color="#39e58c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <style>
+    .m { font-family: ui-monospace, "SF Mono", Menlo, Consolas, "DejaVu Sans Mono", monospace; font-weight: 700; }
+    .s { font-family: ui-monospace, "SF Mono", Menlo, Consolas, "DejaVu Sans Mono", monospace; }
+  </style>
+  <rect width="1200" height="630" fill="#0d0d0c"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <text class="s" x="600" y="104" text-anchor="middle" font-size="22" letter-spacing="7" fill="#8c8b80">NAMING ADVISORY E4S-001</text>
+  <g class="m" text-anchor="middle">
+    <text x="600" y="258" font-size="118" letter-spacing="-4" fill="#f6f5ef">EVERYTHING</text>
+    <text x="600" y="380" font-size="118" letter-spacing="-4">
+      <tspan fill="#39e58c" font-style="italic">4</tspan><tspan fill="#f6f5ef">SHELL</tspan>
+    </text>
+  </g>
+  <rect x="330" y="440" width="540" height="76" rx="10" fill="#1a1a19" stroke="#35352f"/>
+  <rect x="330" y="440" width="6" height="76" fill="#e66767"/>
+  <text class="m" x="600" y="490" text-anchor="middle" font-size="34" fill="#e66767">CVSS 11.0 <tspan fill="#8c8b80" font-size="24">/ 10</tspan></text>
+  <text class="s" x="600" y="566" text-anchor="middle" font-size="24" letter-spacing="3" fill="#c3c2b7">everything4shell.com</text>
+  <text class="s" x="600" y="602" text-anchor="middle" font-size="17" letter-spacing="4" fill="#8c8b80">SATIRE · NOT A REAL VULNERABILITY</text>
+</svg>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Everything4Shell">
+  <rect width="64" height="64" rx="12" fill="#0d0d0c"/>
+  <rect x="2" y="2" width="60" height="60" rx="10" fill="none" stroke="#1f8f58" stroke-width="2"/>
+  <text x="32" y="46" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="40" font-weight="700" font-style="italic" fill="#39e58c">4</text>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 200" width="640" height="200" role="img" aria-label="Everything4Shell wordmark">
+  <style>
+    .wm { font-family: ui-monospace, "SF Mono", Menlo, Consolas, "DejaVu Sans Mono", monospace; font-weight: 700; }
+  </style>
+  <rect width="640" height="200" fill="none"/>
+  <g class="wm" text-anchor="middle">
+    <text x="320" y="86" font-size="72" letter-spacing="-2" fill="#f6f5ef">EVERYTHING</text>
+    <text x="320" y="166" font-size="72" letter-spacing="-2">
+      <tspan fill="#39e58c" font-style="italic">4</tspan><tspan fill="#f6f5ef">SHELL</tspan>
+    </text>
+  </g>
+</svg>
