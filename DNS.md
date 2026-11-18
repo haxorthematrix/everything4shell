@@ -9,9 +9,17 @@ DNS has to agree.
 GoDaddy → **My Products** → next to *everything4shell.com* click **DNS** →
 **Manage DNS** (Domain Portfolio → the domain → *DNS* tab on newer accounts).
 
-**Delete first:** the default parked `A` record for host `@` (it points at a
-GoDaddy parking IP), and any `CNAME` for `www` pointing to
-`@`/`parkingpage...`. Leave MX/TXT records alone.
+**Delete first.** As of setup, the domain is still on GoDaddy parking. These
+three records are what currently exist and all three must go:
+
+| Type | Name | Current value | Action |
+|---|---|---|---|
+| A | @ | `3.33.130.190` | delete |
+| A | @ | `15.197.148.33` | delete |
+| CNAME | www | `everything4shell.com` (shown as `@`) | delete, then re-add below |
+
+Leave MX, TXT and NS records alone. Keep the nameservers on
+`ns49/ns50.domaincontrol.com` — you are editing GoDaddy's zone, not moving it.
 
 **Then add these.** Type `@` exactly — GoDaddy shows it as the root domain.
 
